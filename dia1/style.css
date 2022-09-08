@@ -1,0 +1,41 @@
+.done {
+  text-decoration: line-through;
+}
+
+#list {
+  padding: 0;
+}
+
+#list-form,
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.list-item,
+button {
+  cursor: pointer;
+  user-select: none;
+}
+
+button {
+  width: 60px;
+  height: 30px;
+}
+
+input {
+  height: 30px;
+  width: 75%;
+}
+
+.list-item-delete-button {
+  background: rgba(209, 26, 42, 0.7);
+  border-color: rgb(209, 26, 42);
+  color: #fff;
+}
+
+.list-item {
+  margin: 10px 0;
+}
