@@ -78,13 +78,13 @@ const isValidAge = (age = 10) => age;
 let sym = Symbol("This is my first Symbol");
 
 // Arrow functions
-function whereAmI(username, location) {
-  if (username && location) {
-    return "I am not lost";
-  } else {
-    return "I am totally lost!";
-  }
-}
+// function whereAmI(username, location) {
+//   if (username && location) {
+//     return "I am not lost";
+//   } else {
+//     return "I am totally lost!";
+//   }
+// }
 
 const whereAmI = (username, location) => {
   if (username && location) {
