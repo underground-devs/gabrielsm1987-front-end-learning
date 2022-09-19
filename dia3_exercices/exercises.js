@@ -82,7 +82,5 @@ console.log(total);
 // 	return num * 2;
 // })
 const arrayNum = [1, 2, 4, 5, 8, 9];
-const newArray = arrayNum.map((num, i) => {
-	return num * 2;
-})
+const multiplyArrayItemsByTwo = (array) => arrayNum.map( number => number *2 )
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
